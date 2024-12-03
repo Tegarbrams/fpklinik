@@ -15,9 +15,9 @@
             <h4 class="p-5 d-flex justify-content-center">Klinik</h4>
             <ul class="nav flex-column">
                 <div class="container mt-5">
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold bg-primary text-white px-4 py-2 d-inline-block rounded fs-5" href="#">Dashboard</a></li>
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Pasien</a></li>
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Antrian</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold bg-primary text-white px-4 py-2 d-inline-block rounded fs-5" href="/dashboard">Dashboard</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="/pasien">Pasien</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="/antrian">Antrian</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Stok Obat</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Tenaga Medis</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Logout</a></li>

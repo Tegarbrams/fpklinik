@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,9 +15,9 @@
             <h4 class="p-5 d-flex justify-content-center">Klinik</h4>
             <ul class="nav flex-column">
                 <div class="container mt-5">
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold bg-primary text-white px-4 py-2 d-inline-block rounded fs-5" href="#">Dashboard</a></li>
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Pasien</a></li>
-              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Antrian</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold bg-primary text-white px-4 py-2 d-inline-block rounded fs-5" href="/">Dashboard</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="/pasien">Pasien</a></li>
+              <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="/antrian">Antrian</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Stok Obat</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Tenaga Medis</a></li>
               <li class="nav-item d-flex justify-content-center"><a class="nav-link link-success fw-bold fs-5 text-primary" href="#">Logout</a></li>
@@ -27,7 +28,12 @@
           <div class="col-md-9">
             <div class="card">
                 <div class="card-header bg-primary text-white mt-5">
-                  <h5 class="mb-0">Daftar Antrian</h5>
+                  <div class="row">
+                  <h5 class="col-md-11 mb-0">Daftar Antrian</h5>
+                  <div class="container bg-success">
+                  <p class="col-md-1 items-end mb-0"><a class="text-white text-decoration-none hover-tambah"href="">Tambah</a></p>
+                  </div>
+                  </div>
                 </div>
                 <div class="card-body p-0">
                   <!-- Table -->
